@@ -19,7 +19,7 @@ Applications on Ubuntu which using mcrypt will crash with the following error me
 `PHP Fatal error: Call to undefined function mcrypt_module_open()`
 
 ## How to use
-* Add this repository as `apache_mcrypt` to your ansible roles
+* Add this role via `ansible-galaxy install ssachtleben.apache-mcrypt`
 * Configure it in your role
 
 ## Example configuration
@@ -34,5 +34,5 @@ Here is a working example configuration after adding the role:
       - php5-curl
       - php5-gd
 
-  - role: apache_mcrypt
+  - role: ssachtleben.apache-mcrypt
 ```

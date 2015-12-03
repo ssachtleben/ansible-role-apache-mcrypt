@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Sebastian Sachtleben
+  description: Activates the mcrypt apache module.
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+    - apache
+    - mcrypt
+    - web
